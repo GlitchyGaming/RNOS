@@ -1,0 +1,17 @@
+1. System
+2. Convert
+3. Use Homebrew
+
+1:
+Sudo Install ----OS (Installs Arna/RNOS)
+Sudo Apt-get User Guest-tools (Installs The Virtual Machine's Tools)
+Sudo Boot-mod <Ex: Genify> (Softmods The System With No Modchip)
+Sudo Boot-BIOS harddisk (boots Into PhoenixBIOS Or On UEFI The Boot Menu)
+Sudo User-get Install-software102 (Reinstalls Drivers)
+2:
+Sudo Convert <VDHX> to <ISO> (Converts File(s) To a Different Format)
+Sudo Convert Device-cam0 <something.mp4> to .mov (Converts Videos Into a Different Format
+3: (Usable Homebrew Commands)
+brew install <Something>
+brew convert <VDHX> <Pathline> <ISO>
+[Custom Command] brew convert disk <harddisk0>
